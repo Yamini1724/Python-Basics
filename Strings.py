@@ -26,3 +26,35 @@ print(z.startswith("yamu"))
 #Replace
 u="yamu venu veni"
 print(u.replace("veni", "munnu"))
+
+#Split
+t=z.split()
+print(t)
+
+#Count
+e="guava"
+print(e.count("a"))
+
+#Index
+f="hello world"
+g=f.index("o")
+print(g)
+
+#Find
+i=f.find("o", 5)
+print(i)
+
+#Strip
+j=" YAMINI "
+k=j.strip()
+print(j)
+
+#Removeprefix
+l="PreHelloWorld"
+o=l.removeprefix("Pre")
+print(o)
+
+#Removesuffix
+p="HelloWorldEnd"
+q=p.removesuffix("End")
+print(q)
