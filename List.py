@@ -100,7 +100,7 @@ V.index("Purple")
 print(V)
 
 #Count()
-V.count("red")
+print(V.count("red"))
 
 #Sort()
 V.sort()
